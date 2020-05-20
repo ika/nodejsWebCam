@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: navy;
+      padding: 25px;
+    }
+
+    h1 {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    #layout {
+      width: 700px;
+      height: 550px;
+      margin: 50px auto;
+    }
+
+    #header {
+      text-align: center;
+    }
+
+    #mySketch {
+      padding: 10px;
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #button-right {
+      float: right;
+    }
+
+    #button-center {
+      display: flex;
+      justify-content: center;
+    }
+
+    .button-fancy {
+      background-color: #23b83c;
+      border: 2px solid #020353;
+      color: whitesmoke;
+      padding: 1em 1.5em;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1em;
+      display: inline-block;
+      width: 30%;
+      border-radius: 5px;
+      box-shadow: 3px 3px 8px 0 #000;
+    }
+
+    canvas {
+      border: 5px solid yellow;
+      padding: 10px;
+    }
+  </style>
+  <title>Data Selfie</title>
+  <link rel="stylesheet" type="text/css" href="libs/icons/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="libs/w2ui/w2ui.css" />
+  <script type="text/javascript" src="libs/jquery/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="libs/w2ui/w2ui.min.js"></script>
+  <script type="text/javascript" src="libs/p5/p5.min.js"></script>
+  <script src="sketch.js"></script>
+
+</head>
+
+<body>
+
+  <h1 id="header">My Web Cam</h1>
+  <div id="layout"></div>
+
+</body>
+
+</html>
